@@ -1,5 +1,5 @@
 # Yii2 ConstRange Validator
-[![Build Status](https://travis-ci.org/Horat1us/yii2-const-range-validator.svg?branch=master)](https://travis-ci.org/Horat1us/yii2-const-range-validator)
+[![Test & Lint](https://github.com/Horat1us/yii2-const-range-validator/actions/workflows/php.yml/badge.svg?branch=master)](https://github.com/Horat1us/yii2-const-range-validator/actions/workflows/php.yml)
 [![codecov](https://codecov.io/gh/Horat1us/yii2-const-range-validator/branch/master/graph/badge.svg)](https://codecov.io/gh/Horat1us/yii2-const-range-validator)
 
 This package provides validator that allows use class constants as `\yii\validators\RangeValidator::range`.  
@@ -8,6 +8,8 @@ Main purpose is to prevent errors after adding new constants to classes
 
 Previous implementation was available in [horat1us/yii2-base](https://github.com/Horat1us/yii2-base) package
 as [ConstRangeValidator](https://github.com/Horat1us/yii2-base/blob/1.16.0/src/Validators/ConstRangeValidator.php). 
+
+Compatibility: tested on PHP 8.4, PHP 8.5
 
 ## Installation
 Using [packagist.org](https://packagist.org/packages/horat1us/yii2-const-range-validator):
